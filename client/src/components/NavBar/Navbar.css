@@ -1,0 +1,19 @@
+.nav-bar {
+    border-bottom: 1px solid #ccc;
+}
+
+.nav {
+    margin: 0 32px;
+}
+
+.nav > a {
+    padding: 4px 15px;
+}
+
+.nav-item-active {
+    font-weight: bold;
+}
+
+.nav-user > span {
+    margin-top: -3px;
+}
