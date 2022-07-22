@@ -1,52 +1,44 @@
-# My Movies App
-
-Приложение-каталог фильмов
+# Movies App
 
 ## Features
-В приложении можно просматривать карточки фильмов. 
-Также есть возможность зарегистрироваться и добавлять фильмы в избранное (и удалять, соответственно)
+You can view movie cards in the app, register and add movies to your favorites or delete them
 
-- Главная
+- Home page
 
 ![Home Page](./thumbnails/home.jpg)
 
-- Страница фильма
+- Movie Page
 
 ![Movie Page](./thumbnails/movie.jpg)
 
-- Избранные
+- Favorites
 
 ![Favorites Page](./thumbnails/favorites.jpg)
 
 ## Tech
 - React JS, NodeJS, Express, MongoDB
 - UI: [Ant Design](https://ant.design/components/overview/)
-- API для работы с фильмами: [The Movie Database (TMDB) API](https://developers.themoviedb.org/3)
+- Movies API: [The Movie Database (TMDB) API](https://developers.themoviedb.org/3)
 
-## Для запуска приложения:
+## To run the app:
 
-- установить зависимости в корневой директории
+- install dependencies in root directory
 ```sh
 npm i
 ```
 
-- установить зависимости в директории client
+- install dependencies in client directory
 ```sh
 cd client
 npm i
 ```
-- запуск локально в dev-режиме
+- run locally in development mode
 ```sh
 npm run dev
 ```
 
 
-### P.S. Идеи развития
-#### Features
-- Профиль пользователя
-- Возможность для пользователя выбирать любимые жанры, на основе этого формировать подборки фильмов на главной странице
-
-#### Tech
-- Typescript
-- CSS-модули
-- Покрытие тестами
+### P.S. Possible feature ideas
+- User profile
+- User ability to select favorite genres, set
+- Display movies collections based on user selected genres
